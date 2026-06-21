@@ -4,3 +4,6 @@ SELECT job_id,
     company_id
 FROM job_postings_fact
 LIMIT 10;
+SELECT *
+FROM information_schema.tables
+WHERE table_catalog = 'data_jobs';
